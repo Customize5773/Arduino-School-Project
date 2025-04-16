@@ -1,0 +1,107 @@
+/*North Direction Light*/
+int Red_Light_North = 2;
+int Yellow_Light_North = 3;   
+int Green_Light_North = 4;
+
+/*South Direction Light*/
+int Red_Light_South = 5;
+int Yellow_Light_South = 6;
+int Green_Light_South = 7;
+
+/*East Direction Light*/
+int Red_Light_East = 8;
+int Yellow_Light_East = 9;
+int Green_Light_East = 10;
+
+/*West Direction Light*/
+int Red_Light_West = 11;
+int Yellow_Light_West = 12;
+int Green_Light_West = 13;
+
+/*Timer*/
+#define TIME_LONG 5000
+#define TIME_SHORT 1000
+
+void setup()
+{
+  pinMode(Red_Light_North, OUTPUT);
+  pinMode(Yellow_Light_North, OUTPUT);
+  pinMode(Green_Light_North, OUTPUT);
+  
+  pinMode(Red_Light_South, OUTPUT);
+  pinMode(Yellow_Light_South, OUTPUT);
+  pinMode(Green_Light_South, OUTPUT);
+  
+  pinMode(Red_Light_East, OUTPUT);
+  pinMode(Yellow_Light_East, OUTPUT);
+  pinMode(Green_Light_East, OUTPUT);
+  
+  pinMode(Red_Light_West, OUTPUT);
+  pinMode(Yellow_Light_West, OUTPUT);
+  pinMode(Green_Light_West, OUTPUT);
+}
+
+void loop()
+{
+  // North Road
+  digitalWrite(Green_Light_North, HIGH);
+  digitalWrite(Red_Light_North, LOW); 
+  digitalWrite(Red_Light_West, HIGH);
+  digitalWrite(Red_Light_South, HIGH);
+  digitalWrite(Red_Light_East, HIGH);
+    delay(TIME_SHORT);
+  digitalWrite(Green_Light_North, LOW);
+  digitalWrite(Yellow_Light_North, HIGH);
+  digitalWrite(Red_Light_West, HIGH);
+  digitalWrite(Red_Light_South, HIGH);
+  digitalWrite(Red_Light_East, HIGH);
+    delay(TIME_SHORT);
+  
+  // West Road
+  digitalWrite(Yellow_Light_North, LOW);
+  digitalWrite(Green_Light_West, HIGH);
+  digitalWrite(Red_Light_West, LOW);
+  digitalWrite(Red_Light_North, HIGH);
+  digitalWrite(Red_Light_South, HIGH);
+  digitalWrite(Red_Light_East, HIGH);
+    delay(TIME_SHORT);
+  digitalWrite(Green_Light_West, LOW);
+  digitalWrite(Yellow_Light_West, HIGH);
+  digitalWrite(Red_Light_North, HIGH);
+  digitalWrite(Red_Light_South, HIGH);
+  digitalWrite(Red_Light_East, HIGH);
+    delay(TIME_SHORT);
+  
+  // South Road
+  digitalWrite(Yellow_Light_West, LOW);
+  digitalWrite(Green_Light_South, HIGH);
+  digitalWrite(Red_Light_South, LOW);
+  digitalWrite(Red_Light_North, HIGH);
+  digitalWrite(Red_Light_West, HIGH);
+  digitalWrite(Red_Light_East, HIGH);
+    delay(TIME_SHORT);
+  digitalWrite(Green_Light_South, LOW);
+  digitalWrite(Yellow_Light_South, HIGH);
+  digitalWrite(Red_Light_West, HIGH);
+  digitalWrite(Red_Light_North, HIGH);
+  digitalWrite(Red_Light_South, LOW);
+  digitalWrite(Red_Light_East, HIGH);
+    delay(TIME_SHORT);
+  
+  // East Road
+  digitalWrite(Yellow_Light_South, LOW);
+  digitalWrite(Green_Light_East, HIGH);
+  digitalWrite(Red_Light_East, LOW);
+  digitalWrite(Red_Light_North, HIGH);
+  digitalWrite(Red_Light_South, HIGH);
+  digitalWrite(Red_Light_West, HIGH);
+    delay(TIME_SHORT);
+  digitalWrite(Green_Light_East, LOW);
+  digitalWrite(Yellow_Light_East, HIGH);
+  digitalWrite(Red_Light_East, LOW);
+  digitalWrite(Red_Light_North, HIGH);
+  digitalWrite(Red_Light_South, HIGH);
+  digitalWrite(Red_Light_West, HIGH);
+    delay(TIME_SHORT);
+  digitalWrite(Yellow_Light_East, LOW); 
+}
