@@ -43,5 +43,3 @@ The **Smart Temperature and Entry Tracker** can be implemented in several scenar
 Take the step towards smarter safety measures with the **Smart Temperature and Entry Tracker**! 🌟✨ This project combines the power of technology with the need for proactive health monitoring.
 
 ---
-
-Let me know if you’d like additional edits or refinements! 😊
