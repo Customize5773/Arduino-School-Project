@@ -12,6 +12,8 @@ Fire and earthquake incidents pose significant risks to property and human life.
 
 ## **Program Description** ✨
 
+![Series of Fire Alarm Systems Projects](Fire Alarm System/Image/Fire Alarm System Circuit.png)
+
 The **Fire Alarm System** integrates various components to ensure proactive hazard detection:
 - **Smoke and Gas Detection:** Utilizes an MQ-2 sensor to monitor air quality and detect smoke or harmful gases.
 - **Temperature and Humidity Monitoring:** Incorporates a DHT11 sensor to measure environmental conditions accurately.
