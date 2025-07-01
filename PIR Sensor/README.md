@@ -134,7 +134,7 @@ python extras/Python_Serial_Logger.py
 ```
 
 ## Data Analysis
-![Sample Analysis]()
+![Sample Analysis](PIR Sensor/extras/Data_Logger_Example/motion_analysis_data.png)
 
 Generate reports with:
 ```bash
