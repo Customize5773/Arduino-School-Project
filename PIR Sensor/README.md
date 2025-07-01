@@ -125,10 +125,8 @@ void loop() {
 ```
 
 ### Data Logging
-# Run Python logger:
-python extras/Python_Serial_Logger.py
 
-# Sample output:
+## Sample output:
 ```csv
 timestamp,event,sensor_state,alarm_state
 2025-07-01T08:15:23.451,STATUS,STILL,OFF
@@ -136,9 +134,9 @@ timestamp,event,sensor_state,alarm_state
 2025-07-01T08:35:17.892,Alarm deactivated,STILL,OFF
 ...
 ```
-Full Sample : 
+Full Sample : [Sample_motion_log.csv](https://github.com/Customize5773/Arduino-School-Project/blob/af82a52ac865c5182efe140049a8c902c4e06ec5/PIR%20Sensor/extras/Data_Logger_Example/sample_motion_log.csv)
 
-## Data Analysis
+### Data Analysis
 ![Sample Analysis](https://github.com/Customize5773/Arduino-School-Project/blob/b60c24642eebee1bd62c9dea02e3c22cab23595e/PIR%20Sensor/extras/Data_Logger_Example/motion_analysis_data.png)
 
 ## Troubleshooting Guide
