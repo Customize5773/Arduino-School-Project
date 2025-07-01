@@ -1,6 +1,6 @@
 # PIR Motion Detection System
 
-!
+![robocraze](https://github.com/user-attachments/assets/386787bc-9267-453d-935c-b9d9fed0c933)
 
 An enhanced motion detection system using HC-SR501 PIR sensor with Arduino from [Rachana Jain](https://www.instructables.com/HC-SR501-PIR-Sensor-With-Arduino/) featuring:
 - Multi-output alerts (LED + Buzzer)
