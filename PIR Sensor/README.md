@@ -72,10 +72,10 @@ graph LR
     %% Output devices
     LED[LED]
     Buzzer[Buzzer]
-    LED -->|(+)| Arduino
-    LED -->|(-)| Arduino
-    Buzzer -->|(+)| Arduino
-    Buzzer -->|(-)| Arduino
+    LED -->|+| Arduino
+    LED -->|-| Arduino
+    Buzzer -->|+| Arduino
+    Buzzer -->|-| Arduino
 
     %% SD Module subgraph
     subgraph SDModule[SD Card Module]
