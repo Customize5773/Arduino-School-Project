@@ -65,28 +65,28 @@ graph LR
 
     %% PIR Sensor nodes and connections
     PIR[HC-SR501 PIR Sensor]
-    PIR -->|VCC| Arduino
-    PIR -->|OUT| Arduino
+    PIR -->|VCC to 5V| Arduino
+    PIR -->|OUT to D2| Arduino
     PIR -->|GND| Arduino
 
     %% Output devices
     LED[LED]
     Buzzer[Buzzer]
-    LED -->|+| Arduino
-    LED -->|-| Arduino
-    Buzzer -->|+| Arduino
-    Buzzer -->|-| Arduino
+    LED -->|Anode to D13| Arduino
+    LED -->|Cathode to GND| Arduino
+    Buzzer -->|Positive to D12| Arduino
+    Buzzer -->|Negative to GND| Arduino
 
-    %% SD Module subgraph
+    %% SD Module
     subgraph SDModule[SD Card Module]
         SD[Card Reader]
     end
-    SD -->|VCC| Arduino
+    SD -->|VCC to 5V| Arduino
     SD -->|GND| Arduino
-    SD -->|CS| Arduino
-    SD -->|MOSI| Arduino
-    SD -->|MISO| Arduino
-    SD -->|SCK| Arduino
+    SD -->|CS to D4| Arduino
+    SD -->|MOSI to D11| Arduino
+    SD -->|MISO to D12| Arduino
+    SD -->|SCK to D13| Arduino
 ```
 
 ## Installation & Setup
