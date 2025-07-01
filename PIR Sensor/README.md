@@ -125,21 +125,21 @@ void loop() {
 ```
 
 ### Data Logging
-```python
 # Run Python logger:
 python extras/Python_Serial_Logger.py
 
 # Sample output:
-2023-07-01T12:30:45.123, ALARM ACTIVATED, MOTION, ON
+```csv
+timestamp,event,sensor_state,alarm_state
+2025-07-01T08:15:23.451,STATUS,STILL,OFF
+2025-07-01T08:30:17.892,ALARM ACTIVATED,MOTION,ON
+2025-07-01T08:35:17.892,Alarm deactivated,STILL,OFF
+...
 ```
+Full Sample : 
 
 ## Data Analysis
-![Sample Analysis](PIR Sensor/extras/Data_Logger_Example/motion_analysis_data.png)
-
-Generate reports with:
-```bash
-python extras/Data_Analysis_Example/motion_analysis.py motion_log.csv
-```
+![Sample Analysis](https://github.com/Customize5773/Arduino-School-Project/blob/b60c24642eebee1bd62c9dea02e3c22cab23595e/PIR%20Sensor/extras/Data_Logger_Example/motion_analysis_data.png)
 
 ## Troubleshooting Guide
 | Issue | Solution |
