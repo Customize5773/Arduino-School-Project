@@ -5,7 +5,7 @@
 
 ## Enhanced Autonomous Robot with Power System Upgrade
 
-HabiBot V1.0 by By [minhkhoitrannguyen](https://www.instructables.com/member/minhkhoitrannguyen/) is an open-source robotics platform featuring obstacle avoidance capabilities with a major power system enhancement - replacing the original 9V battery with a high-performance 7.4V LiPo battery solution. This upgrade provides **3x longer runtime** and more reliable power delivery for continuous operation.
+HabiBot V1.0 by [minhkhoitrannguyen](https://www.instructables.com/member/minhkhoitrannguyen/) is an open-source robotics platform featuring obstacle avoidance capabilities with a major power system enhancement - replacing the original 9V battery with a high-performance 7.4V LiPo battery solution. This upgrade provides **3x longer runtime** and more reliable power delivery for continuous operation.
 
 ## Key Features
 - **Advanced Power System**: 7.4V 2000mAh LiPo battery with voltage monitoring
