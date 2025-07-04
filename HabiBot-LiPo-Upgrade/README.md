@@ -7,7 +7,7 @@
 
 HabiBot V1.0 by By [minhkhoitrannguyen](https://www.instructables.com/member/minhkhoitrannguyen/) is an open-source robotics platform featuring obstacle avoidance capabilities with a major power system enhancement - replacing the original 9V battery with a high-performance 7.4V LiPo battery solution. This upgrade provides **3x longer runtime** and more reliable power delivery for continuous operation.
 
-## Key Features ✨
+## Key Features
 - **Advanced Power System**: 7.4V 2000mAh LiPo battery with voltage monitoring
 - **Extended Runtime**: 45-90 minutes continuous operation (vs 15-20 min with 9V)
 - **Safety Protections**: Low-voltage cutoff and thermal monitoring
@@ -27,7 +27,7 @@ HabiBot V1.0 by By [minhkhoitrannguyen](https://www.instructables.com/member/min
 | Dimensions | 120 × 100 × 80 mm |
 | Weight | 250g (with battery) |
 
-## Getting Started 🚀
+## Getting Started
 
 ### Prerequisites
 - Arduino IDE 2.x
@@ -53,14 +53,14 @@ HabiBot V1.0 by By [minhkhoitrannguyen](https://www.instructables.com/member/min
 2. Follow wiring diagram in `hardware/wiring_diagram.png`
 3. Refer to [assembly guide](docs/assembly_notes.md) for LiPo installation
 
-## Bill of Materials 💰
+## Bill of Materials
 Full component list with sourcing guide:  
 [hardware/BOM.md](hardware/BOM.md)
 
 **Core Components Cost: $65-95**  
 *(Complete build with LiPo upgrade)*
 
-## Safety First! ⚠️
+## Safety First!
 **Critical LiPo Handling Requirements:**
 - Always use fireproof charging bags
 - Never charge unattended
@@ -69,7 +69,7 @@ Full component list with sourcing guide:
 
 Full safety protocol: [docs/LiPo_safety.md](docs/LiPo_safety.md)
 
-## Usage Examples 🧪
+## Usage Examples
 ```cpp
 // Sample battery monitoring code
 float voltage = readBatteryVoltage();
@@ -83,7 +83,7 @@ if(voltage < 6.6) {
 }
 ```
 
-## Roadmap 🗺️
+## Roadmap
 - [x] LiPo power system integration
 - [ ] Wireless remote control module
 - [ ] Solar charging capability
