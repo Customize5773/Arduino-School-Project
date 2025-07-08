@@ -27,21 +27,10 @@ SmartBrake-IR is an advanced Arduino-based backup sensor system that combines pr
 | Manual Operation | **Ignition-Activated Toggle Switch** |
 | Warning Only | **5V Relay Auto-Braking System** |
 
-## Repository Structure
-```
-SmartBrake-IR/
-├── Hardware/            # Circuit diagrams & BOM
-├── Firmware/            # Arduino source code
-├── Documentation/       # Setup guide & safety notes
-├── Media/               # Demo videos & photos
-├── LICENSE              # MIT License
-└── README.md            # This overview
-```
-
 ## Quick Start Guide 🚦
 1. **Hardware Setup**  
    ```bash
-   git clone https://github.com/yourusername/SmartBrake-IR.git
+   git clone https://github.com/Customize5773/SmartBrake-IR.git
    ```
    - Follow [Hardware/schematic.pdf](Hardware/schematic.pdf) for wiring
    
@@ -51,7 +40,7 @@ SmartBrake-IR/
    - Upload to microcontroller
 
 3. **Calibrate & Test**  
-   ```arduino
+   ```ino
    // Adjust thresholds in code:
    const float CRITICAL_DIST = 5.0;   // Brake activation distance
    const float WARNING_DIST = 10.0;   // Fast alert distance
