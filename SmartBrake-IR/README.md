@@ -11,14 +11,14 @@
 ## Overview
 SmartBrake-IR is an advanced Arduino-based backup sensor system that combines precise infrared distance sensing with automatic braking capabilities. Designed as an upgrade to traditional ultrasonic sensors, this project provides reliable obstacle detection and emergency response for vehicles, robotics, and industrial applications.
 
-## Key Features ✨
+## Key Features
 - **Precise IR Sensing** - Sharp GP2Y0A21YK0F sensor for accurate 4-30" detection
 - **Auto-Braking System** - Relay-controlled emergency braking at critical distances
 - **Visual & Audible Alerts** - RGB LED status indicators + variable-pitch buzzer
 - **Automotive-Grade Design** - 12V vehicle integration with ignition safety
 - **Intelligent Thresholds** - Multi-stage warnings based on proximity
 
-## Hardware Upgrades 🚀
+## Hardware Upgrades
 | Original Component | SmartBrake-IR Upgrade |
 |--------------------|-----------------------|
 | HC-SR04 Ultrasonic | **Sharp GP2Y0A21YK0F IR Sensor** |
@@ -27,7 +27,7 @@ SmartBrake-IR is an advanced Arduino-based backup sensor system that combines pr
 | Manual Operation | **Ignition-Activated Toggle Switch** |
 | Warning Only | **5V Relay Auto-Braking System** |
 
-## Quick Start Guide 🚦
+## Quick Start Guide
 1. **Hardware Setup**  
    ```bash
    git clone https://github.com/Customize5773/SmartBrake-IR.git
@@ -47,11 +47,11 @@ SmartBrake-IR is an advanced Arduino-based backup sensor system that combines pr
    const float SAFE_DIST = 20.0;      // Normal operation threshold
    ```
 
-## Safety Notice ⚠️
+## Safety Notice
 **This is not a road-certified safety system!**  
 Always follow [safety guidelines](Documentation/safety_notes.md) during installation and testing. Never operate on public roadways without professional certification.
 
-## License 📄
+## License
 Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
 
 ---
