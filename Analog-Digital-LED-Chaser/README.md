@@ -5,7 +5,7 @@
 
 **Hybrid Electronics Project Combining 555 Timer, 4017 Counter & Arduino**
 
-[Game Demo](https://www.youtube.com/embed/K8hhmg3bHwE?feature=oembed&autoplay=1)  
+[`Game Demo`](https://www.youtube.com/embed/K8hhmg3bHwE?feature=oembed&autoplay=1)  
 *Gameplay demonstration - Match the RGB color with the chasing LEDs*
 
 ## Overview
