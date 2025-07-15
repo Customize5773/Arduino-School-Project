@@ -189,5 +189,3 @@ sequenceDiagram
    - Check Arduino pin mode (INPUT in code)
 
 > **Safety Note**: Always disconnect power when making circuit changes. Double-check polarities before applying power.
-
-Would you like me to provide a template for the README.md that ties all these documents together?
