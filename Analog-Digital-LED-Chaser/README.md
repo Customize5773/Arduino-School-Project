@@ -1,6 +1,7 @@
 # Arduino LED Chaser Game
 
 ![FQV5QGAMBP3W8MI](https://github.com/user-attachments/assets/31e1d5a2-2e40-40e8-84ad-0b85427b428c)
+> Source : By [`ErtanR`](https://www.instructables.com/member/ErtanR/)
 
 **Hybrid Electronics Project Combining 555 Timer, 4017 Counter & Arduino**
 
