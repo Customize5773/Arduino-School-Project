@@ -1,8 +1,5 @@
 # Circuit Diagram Documentation
 
-```markdown
-# Circuit Diagram - LED Chaser Game
-
 ## Overall System Architecture
 ```mermaid
 graph TD
